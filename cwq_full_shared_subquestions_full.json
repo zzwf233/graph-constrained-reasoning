@@ -1,0 +1,2429 @@
+{
+  "total_shared_subquestion_groups": 61,
+  "shared_subquestions": [
+    {
+      "normalized_question": "who fought in battle of vicksburg",
+      "parents": 5,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1797_55859b14711d8a72722e48869e7af7be",
+          "parent_root_question": "Who fought in the battle of Vicksburg?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_55859b14711d8a72722e48869e7af7be_0",
+              "sub_id": 0,
+              "raw_question": "Who fought in the battle of Vicksburg?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Richmond, VA HUD Metro FMR Area"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1797_6e07a94c61aafc2ffd9d6eba802dd88c",
+          "parent_root_question": "Who fought in the Battle of Vicksburg?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_6e07a94c61aafc2ffd9d6eba802dd88c_0",
+              "sub_id": 0,
+              "raw_question": "Who fought in the Battle of Vicksburg?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Kings"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1797_aebafe742230b5698eca4d082679871f",
+          "parent_root_question": "Who fought in the battle of Vicksburg?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_aebafe742230b5698eca4d082679871f_0",
+              "sub_id": 0,
+              "raw_question": "Who fought in the battle of Vicksburg?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Presidential system"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1797_c649eb96d88b8ed66a55b1335f59807d",
+          "parent_root_question": "Who fought in the Battle of Vicksburg?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_c649eb96d88b8ed66a55b1335f59807d_0",
+              "sub_id": 0,
+              "raw_question": "Who fought in the Battle of Vicksburg?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "President Grant"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1797_e80f96dbe8dbabca65d8a49838cad466",
+          "parent_root_question": "Who fought in the Battle of Vicksburg?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_e80f96dbe8dbabca65d8a49838cad466_0",
+              "sub_id": 0,
+              "raw_question": "Who fought in the Battle of Vicksburg?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "US President"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "country",
+      "parents": 4,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1216_761d625d144016a4f8b1857f93328727",
+          "parent_root_question": "The individual who obtained education at Tbilisi Spiritual Seminary is the ruler of?",
+          "samples": [
+            {
+              "qid": "WebQTest-1216_761d625d144016a4f8b1857f93328727_1",
+              "sub_id": 1,
+              "raw_question": "country?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Employer"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-1864_ed598699c0c39f5b0edfd4d64bb14e92",
+          "parent_root_question": "The Unmol originated in?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1864_ed598699c0c39f5b0edfd4d64bb14e92_2",
+              "sub_id": 2,
+              "raw_question": "country?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Vietnam"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2664_d447122eab9b3a1bb5e1eeb45edaa3ef",
+          "parent_root_question": "country?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2664_d447122eab9b3a1bb5e1eeb45edaa3ef_0",
+              "sub_id": 0,
+              "raw_question": "country?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Oudomxay Province"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-497_3552e9f8210e6d1d5c2df369280cb3aa",
+          "parent_root_question": "The Gouden Reael neighborhood is in?",
+          "samples": [
+            {
+              "qid": "WebQTrn-497_3552e9f8210e6d1d5c2df369280cb3aa_1",
+              "sub_id": 1,
+              "raw_question": "country?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "United States Dollar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "fought in battle of vicksburg",
+      "parents": 4,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1797_194b220adab0abb76bdf49354cfdf3ff",
+          "parent_root_question": "Who held the position through 1870-11-22?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_194b220adab0abb76bdf49354cfdf3ff_1",
+              "sub_id": 1,
+              "raw_question": "fought in the Battle of Vicksburg?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "President Grant"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1797_2c6192cd87066f2d11a1a5ab65aeece8",
+          "parent_root_question": "politician began their position in government before 1875-10-19?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_2c6192cd87066f2d11a1a5ab65aeece8_1",
+              "sub_id": 1,
+              "raw_question": "fought in the battle of Vicksburg?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Siege of Vicksburg"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1797_504385c9271ab572b3213303b762e341",
+          "parent_root_question": "What politician held office until march of 1877?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_504385c9271ab572b3213303b762e341_1",
+              "sub_id": 1,
+              "raw_question": "fought in the Battle of Vicksburg?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Hurricane Babe"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1797_f2a2e2e91494abbc29bdf70800a5910e",
+          "parent_root_question": "What politician held an office between 1872-1911?",
+          "samples": [
+            {
+              "qid": "WebQTest-1797_f2a2e2e91494abbc29bdf70800a5910e_1",
+              "sub_id": 1,
+              "raw_question": "fought in the Battle of Vicksburg?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Hurricane Babe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "founded new york university",
+      "parents": 4,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1560_1cbd772457447bcfbbad0b67531e9c0b",
+          "parent_root_question": "Who held his governmental position latest?",
+          "samples": [
+            {
+              "qid": "WebQTest-1560_1cbd772457447bcfbbad0b67531e9c0b_1",
+              "sub_id": 1,
+              "raw_question": "founded New York University?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "President"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1560_540272628a3440c1e3ee0d073a890920",
+          "parent_root_question": "Who is the person that wrote a Vocabulary of Seneca?",
+          "samples": [
+            {
+              "qid": "WebQTest-1560_540272628a3440c1e3ee0d073a890920_1",
+              "sub_id": 1,
+              "raw_question": "founded New York University?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "m.piv_7140ab"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1560_a720c55d8c1ac8b92202531c043f6cdd",
+          "parent_root_question": "Who retired from their government position after 03/03/1801?",
+          "samples": [
+            {
+              "qid": "WebQTest-1560_a720c55d8c1ac8b92202531c043f6cdd_1",
+              "sub_id": 1,
+              "raw_question": "founded New York University?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "m.piv_b2172d"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1560_d87e6003e0bb73430e71d08cbc015b56",
+          "parent_root_question": "Who is the governmental officer prior to 3-4-1795?",
+          "samples": [
+            {
+              "qid": "WebQTest-1560_d87e6003e0bb73430e71d08cbc015b56_1",
+              "sub_id": 1,
+              "raw_question": "founded New York University?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Street Address 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "was governor of ohio in 2011",
+      "parents": 4,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-12_0267745d7968252ff8fbf5246c9287e9",
+          "parent_root_question": "Who held his governmental position from after January 3, 1983?",
+          "samples": [
+            {
+              "qid": "WebQTest-12_0267745d7968252ff8fbf5246c9287e9_1",
+              "sub_id": 1,
+              "raw_question": "was governor of Ohio in 2011?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Andrews"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-12_64c67292548a2872e94c2d2162850e82",
+          "parent_root_question": "Who held a position in the 11th United States Congress?",
+          "samples": [
+            {
+              "qid": "WebQTest-12_64c67292548a2872e94c2d2162850e82_1",
+              "sub_id": 1,
+              "raw_question": "was Governor of Ohio in 2011?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "m.piv_dc0342"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-12_974c964a1a2810facfeb4b1a996e878a",
+          "parent_root_question": "Who held a government post from 1979-01-03?",
+          "samples": [
+            {
+              "qid": "WebQTest-12_974c964a1a2810facfeb4b1a996e878a_1",
+              "sub_id": 1,
+              "raw_question": "was the governor of Ohio in 2011?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Dr. Helen Elsie Austin"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-12_c701ad2b5b8ef3f3ed26dd2ed8703d05",
+          "parent_root_question": "Who held his governmental position from December 12, 1808?",
+          "samples": [
+            {
+              "qid": "WebQTest-12_c701ad2b5b8ef3f3ed26dd2ed8703d05_1",
+              "sub_id": 1,
+              "raw_question": "was Governor of Ohio in 2011?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Dr. Helen Elsie Austin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what is there to see",
+      "parents": 4,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-465_46d5d7d6aba16a10af4f4059dde155b7",
+          "parent_root_question": "What is there to see?",
+          "samples": [
+            {
+              "qid": "WebQTrn-465_46d5d7d6aba16a10af4f4059dde155b7_0",
+              "sub_id": 0,
+              "raw_question": "What is there to see?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Intelligent"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-465_625dcc2028696681e621cceadd1d10cb",
+          "parent_root_question": "What is there to see?",
+          "samples": [
+            {
+              "qid": "WebQTrn-465_625dcc2028696681e621cceadd1d10cb_0",
+              "sub_id": 0,
+              "raw_question": "What is there to see?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Ceann Comhairle"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-465_7ec1aff598d72f91907d801c464ca7d4",
+          "parent_root_question": "What is there to see?",
+          "samples": [
+            {
+              "qid": "WebQTrn-465_7ec1aff598d72f91907d801c464ca7d4_0",
+              "sub_id": 0,
+              "raw_question": "What is there to see?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Shetland Sheepdog"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-465_f2af31afe52a13cecf19acb7f08832ea",
+          "parent_root_question": "What is there to see?",
+          "samples": [
+            {
+              "qid": "WebQTrn-465_f2af31afe52a13cecf19acb7f08832ea_0",
+              "sub_id": 0,
+              "raw_question": "What is there to see?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Date dissolved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "college",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-1259_2fa90adc92b5095b8e1fd27754180250",
+          "parent_root_question": "The artist who recorded I'm Gonna Get Drunk?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1259_2fa90adc92b5095b8e1fd27754180250_2",
+              "sub_id": 2,
+              "raw_question": "college?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Bachelor's degree"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-3123_c8fc158536f54197c55144930d898fb2",
+          "parent_root_question": "The artist nominated for Norwood attended?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3123_c8fc158536f54197c55144930d898fb2_1",
+              "sub_id": 1,
+              "raw_question": "college?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "United States of America"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-76_f29b3764fd88d76c5faa9ea947c57286",
+          "parent_root_question": "The actor that played Hark Hanson attended?",
+          "samples": [
+            {
+              "qid": "WebQTrn-76_f29b3764fd88d76c5faa9ea947c57286_1",
+              "sub_id": 1,
+              "raw_question": "college?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "College/University"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "dated scarlett johansson",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-213_044320b87059a1cd4aacb661d9c6512a",
+          "parent_root_question": "artist had the \"Justified?",
+          "samples": [
+            {
+              "qid": "WebQTest-213_044320b87059a1cd4aacb661d9c6512a_2",
+              "sub_id": 2,
+              "raw_question": "dated Scarlett Johansson?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Christina Aguilera"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-213_61516138603e1aae7ee58e812cc4a2d1",
+          "parent_root_question": "Who is the celebrity?",
+          "samples": [
+            {
+              "qid": "WebQTest-213_61516138603e1aae7ee58e812cc4a2d1_1",
+              "sub_id": 1,
+              "raw_question": "dated Scarlett Johansson?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Melanie Griffith"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-213_facc2f7bae94c21d7ada586512f36c67",
+          "parent_root_question": "Who produced the movie \"August\"?",
+          "samples": [
+            {
+              "qid": "WebQTest-213_facc2f7bae94c21d7ada586512f36c67_1",
+              "sub_id": 1,
+              "raw_question": "dated Scarlett Johansson?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Taking Chances"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "featured taylor swift",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-538_2055b38029bf8f2a0c593d3a189d3efe",
+          "parent_root_question": "What movie was edited by Jim Clark?",
+          "samples": [
+            {
+              "qid": "WebQTest-538_2055b38029bf8f2a0c593d3a189d3efe_1",
+              "sub_id": 1,
+              "raw_question": "featured Taylor Swift?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Sounds of the Season: The Taylor Swift Holiday Collection"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-538_e767ac9ea2c1ea9896e9267b30ea9306",
+          "parent_root_question": "What movie was nominiated with an award titled \"as Robby Ray Stewart\"?",
+          "samples": [
+            {
+              "qid": "WebQTest-538_e767ac9ea2c1ea9896e9267b30ea9306_1",
+              "sub_id": 1,
+              "raw_question": "featured Taylor Swift?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "American Girl"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-538_fc5392eefef107aa88084b05ddd2e246",
+          "parent_root_question": "film debuted at the 2012 9Âº Syfy Festival?",
+          "samples": [
+            {
+              "qid": "WebQTest-538_fc5392eefef107aa88084b05ddd2e246_1",
+              "sub_id": 1,
+              "raw_question": "featured Taylor Swift?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Love Story"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "featured tupac",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2784_1afdc65142a646a69eb7f01dce690c4b",
+          "parent_root_question": "Of the movies?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2784_1afdc65142a646a69eb7f01dce690c4b_1",
+              "sub_id": 1,
+              "raw_question": "featured tupac?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "m.piv_89d49c"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2784_2ed119f3af3aaf61ec4ca7231c6cfe9c",
+          "parent_root_question": "What movie was abotu male nudity?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2784_2ed119f3af3aaf61ec4ca7231c6cfe9c_1",
+              "sub_id": 1,
+              "raw_question": "featured Tupac?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Beanie Sigel: Public Enemy"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2784_3a127296c766540ac81b981024832cdc",
+          "parent_root_question": "movie was released on January 1, 1992?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2784_3a127296c766540ac81b981024832cdc_1",
+              "sub_id": 1,
+              "raw_question": "featured Tupac?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Ghetto Gospel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "is home to lala anthony",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-452_2a06fb2e3e92dba471d90f293add7860",
+          "parent_root_question": "What place has the location GNIS feature ID of 597040?",
+          "samples": [
+            {
+              "qid": "WebQTrn-452_2a06fb2e3e92dba471d90f293add7860_1",
+              "sub_id": 1,
+              "raw_question": "is home to Lala Anthony?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "United States Dollar"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-452_343ed3d9e115281a150a454a44734cf0",
+          "parent_root_question": "What city has co2 emissions of 0.111011211?",
+          "samples": [
+            {
+              "qid": "WebQTrn-452_343ed3d9e115281a150a454a44734cf0_1",
+              "sub_id": 1,
+              "raw_question": "is home to Lala Anthony?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Country of nationality"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-452_f79ffe93341047ed2d8a39e5bb7d9156",
+          "parent_root_question": "What city has a located ID less than 1783503?",
+          "samples": [
+            {
+              "qid": "WebQTrn-452_f79ffe93341047ed2d8a39e5bb7d9156_1",
+              "sub_id": 1,
+              "raw_question": "is home to Lala Anthony?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "United States Dollar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "movie has charlie hunnam been in",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-537_8f768e11eabc7781a72a84addaf7067c",
+          "parent_root_question": "movie has Charlie Hunnam been in?",
+          "samples": [
+            {
+              "qid": "WebQTest-537_8f768e11eabc7781a72a84addaf7067c_0",
+              "sub_id": 0,
+              "raw_question": "movie has Charlie Hunnam been in?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Green Street"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-537_a267afc1df7decc72a45dfb669478531",
+          "parent_root_question": "movie has Charlie Hunnam been in?",
+          "samples": [
+            {
+              "qid": "WebQTest-537_a267afc1df7decc72a45dfb669478531_0",
+              "sub_id": 0,
+              "raw_question": "movie has Charlie Hunnam been in?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Knights of the Roundtable: King Arthur Cold Mountain Nicholas Nickleby Whatever Happened to Harold Smith? Green Street Abandon Children of Men The Ledge Deadfall Frankie Go Boom Pacific Rim Crimson Pe"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-537_d5dd05a2d98b2d655530e211f59b7d5a",
+          "parent_root_question": "movie has Charlie Hunnam been in?",
+          "samples": [
+            {
+              "qid": "WebQTest-537_d5dd05a2d98b2d655530e211f59b7d5a_0",
+              "sub_id": 0,
+              "raw_question": "movie has Charlie Hunnam been in?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Knights of the Roundtable: King Arthur Cold Mountain Nicholas Nickleby Whatever Happened to Harold Smith? Green Street Abandon Children of Men The Ledge Deadfall Frankie Go Boom Pacific Rim Crimson Pe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "was president of united states during wwii",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2570_1c3de80a4c34be41f72d0c4a0410994c",
+          "parent_root_question": "Who held a position in the New York State Senate?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2570_1c3de80a4c34be41f72d0c4a0410994c_1",
+              "sub_id": 1,
+              "raw_question": "was President of the United States during WWII?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Franklin D. Roosevelt Harry S. Truman"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2570_c17669dc7c892018579cd1b98df18f03",
+          "parent_root_question": "Who held his governmental position from March 17, 1913?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2570_c17669dc7c892018579cd1b98df18f03_1",
+              "sub_id": 1,
+              "raw_question": "was the president of the United States during WWII?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Harry S. Truman"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2570_c47133a5a4595621bf114ffa8ed4c3e3",
+          "parent_root_question": "What held his governmental position from latest?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2570_c47133a5a4595621bf114ffa8ed4c3e3_1",
+              "sub_id": 1,
+              "raw_question": "was the president of the United States during WWII?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Franklin D. Roosevelt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what country borders germany",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-849_060135e66e84cbaa29a73145435c5457",
+          "parent_root_question": "What country borders Germany?",
+          "samples": [
+            {
+              "qid": "WebQTrn-849_060135e66e84cbaa29a73145435c5457_0",
+              "sub_id": 0,
+              "raw_question": "What country borders Germany?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "City/Town/Village"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-849_88e00458cad669a0d01644cdd6029157",
+          "parent_root_question": "What country borders Germany?",
+          "samples": [
+            {
+              "qid": "WebQTrn-849_88e00458cad669a0d01644cdd6029157_0",
+              "sub_id": 0,
+              "raw_question": "What country borders Germany?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "United States Dollar"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-849_f3a1c6675eb8bb236b049311dc760eaf",
+          "parent_root_question": "What country borders Germany?",
+          "samples": [
+            {
+              "qid": "WebQTrn-849_f3a1c6675eb8bb236b049311dc760eaf_0",
+              "sub_id": 0,
+              "raw_question": "What country borders Germany?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Belgium Czech Republic Luxembourg Netherlands Poland Switzerland France Austria Denmark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what country to",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-3543_58fa00ab06c20e4ef19c1baa364ace47",
+          "parent_root_question": "What country to?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3543_58fa00ab06c20e4ef19c1baa364ace47_0",
+              "sub_id": 0,
+              "raw_question": "What country to?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Sovereign state"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-3543_d7db4cdab1589b7c97a81236310a67f7",
+          "parent_root_question": "What country to?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3543_d7db4cdab1589b7c97a81236310a67f7_0",
+              "sub_id": 0,
+              "raw_question": "What country to?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Japanese designated city"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-3543_f47d07fb12afd1cc18d0a707a7a67fac",
+          "parent_root_question": "What country to?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3543_f47d07fb12afd1cc18d0a707a7a67fac_0",
+              "sub_id": 0,
+              "raw_question": "What country to?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Japanese designated city"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "where is belgium located",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-493_0fd366ae97bcff5e8b36f8c118d808f7",
+          "parent_root_question": "Where is Belgium located?",
+          "samples": [
+            {
+              "qid": "WebQTrn-493_0fd366ae97bcff5e8b36f8c118d808f7_0",
+              "sub_id": 0,
+              "raw_question": "Where is Belgium located?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "River"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-493_5b2c4b0d5faeffa7e6ed3767a4a57c89",
+          "parent_root_question": "Where is Belgium located?",
+          "samples": [
+            {
+              "qid": "WebQTrn-493_5b2c4b0d5faeffa7e6ed3767a4a57c89",
+              "sub_id": 0,
+              "raw_question": "Where is Belgium located?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "When the Sea Rises"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-493_e862c176a82201c2434fdcb1c1fff61c",
+          "parent_root_question": "Where is Belgium located?",
+          "samples": [
+            {
+              "qid": "WebQTrn-493_e862c176a82201c2434fdcb1c1fff61c_0",
+              "sub_id": 0,
+              "raw_question": "Where is Belgium located?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "When the Sea Rises"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "who founded new york university",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1560_1bee868ed5551a3cfdba70a720adbc04",
+          "parent_root_question": "Who founded New York University?",
+          "samples": [
+            {
+              "qid": "WebQTest-1560_1bee868ed5551a3cfdba70a720adbc04_0",
+              "sub_id": 0,
+              "raw_question": "Who founded New York University?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "John William Draper"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1560_210d8463ee35ff65448a711c4461f122",
+          "parent_root_question": "who founded new york university?",
+          "samples": [
+            {
+              "qid": "WebQTest-1560_210d8463ee35ff65448a711c4461f122_0",
+              "sub_id": 0,
+              "raw_question": "who founded new york university?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "John William Draper"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1560_597bd7b2c629237d470d67390eba7edb",
+          "parent_root_question": "Who founded the New York University?",
+          "samples": [
+            {
+              "qid": "WebQTest-1560_597bd7b2c629237d470d67390eba7edb_0",
+              "sub_id": 0,
+              "raw_question": "Who founded the New York University?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Andrew Repasky McElhinney"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "who inspired scott fitzgerald",
+      "parents": 3,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-894_30bf7df312187ad1f95aaaf3ed20e18d",
+          "parent_root_question": "Who inspired Scott Fitzgerald?",
+          "samples": [
+            {
+              "qid": "WebQTrn-894_30bf7df312187ad1f95aaaf3ed20e18d_0",
+              "sub_id": 0,
+              "raw_question": "Who inspired Scott Fitzgerald?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Friedrich Engels"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-894_561ebb832e53151cc5d735f5acf00c15",
+          "parent_root_question": "Who was the person who was inspired by William Hazlitt?",
+          "samples": [
+            {
+              "qid": "WebQTrn-894_561ebb832e53151cc5d735f5acf00c15_1",
+              "sub_id": 1,
+              "raw_question": "who inspired Scott Fitzgerald?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Eugene O'Neill"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-894_5b61bbe1669e875be7e7e8dd53f135ab",
+          "parent_root_question": "Who inspired Scott Fitzgerald?",
+          "samples": [
+            {
+              "qid": "WebQTrn-894_5b61bbe1669e875be7e7e8dd53f135ab_0",
+              "sub_id": 0,
+              "raw_question": "Who inspired Scott Fitzgerald?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "United Kingdom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "bolivia",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1282_29d667144c10743ecdb31fccce932cdd",
+          "parent_root_question": "What form of government is used in both the United States?",
+          "samples": [
+            {
+              "qid": "WebQTest-1282_29d667144c10743ecdb31fccce932cdd_1",
+              "sub_id": 1,
+              "raw_question": "Bolivia?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "United States Dollar"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-217_29d667144c10743ecdb31fccce932cdd",
+          "parent_root_question": "What type of government is followed by the U.S?",
+          "samples": [
+            {
+              "qid": "WebQTest-217_29d667144c10743ecdb31fccce932cdd_1",
+              "sub_id": 1,
+              "raw_question": "Bolivia?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Bolivia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "borders germany",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-849_28397577e32e26956013dc763dd8fdd8",
+          "parent_root_question": "What country produces the Pilsner Urquell beer?",
+          "samples": [
+            {
+              "qid": "WebQTrn-849_28397577e32e26956013dc763dd8fdd8_1",
+              "sub_id": 1,
+              "raw_question": "borders Germany?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "United States Dollar"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-849_b67524255490b93db0c88d74d2d144a7",
+          "parent_root_question": "What country has an internet top level domain of nl?",
+          "samples": [
+            {
+              "qid": "WebQTrn-849_b67524255490b93db0c88d74d2d144a7_1",
+              "sub_id": 1,
+              "raw_question": "borders Germany?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Sovereign state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "countries speak germanic languages",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1251_75d0c1249a67e28c09e4c54530982ff6",
+          "parent_root_question": "countries speak the Germanic languages?",
+          "samples": [
+            {
+              "qid": "WebQTest-1251_75d0c1249a67e28c09e4c54530982ff6_0",
+              "sub_id": 0,
+              "raw_question": "countries speak the Germanic languages?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Fiction"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1251_dfb6c97ac9bf2f0ac07f27dd80f9edc2",
+          "parent_root_question": "Also the location of the airport that serves Nijmegen?",
+          "samples": [
+            {
+              "qid": "WebQTest-1251_dfb6c97ac9bf2f0ac07f27dd80f9edc2_1",
+              "sub_id": 1,
+              "raw_question": "countries speak Germanic languages?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Vatican City"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "country has territories in oceania",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-712_11e9758e98422bc42f1d085d6723de33",
+          "parent_root_question": "country has territories in Oceania?",
+          "samples": [
+            {
+              "qid": "WebQTest-712_11e9758e98422bc42f1d085d6723de33_0",
+              "sub_id": 0,
+              "raw_question": "country has territories in Oceania?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Wake Island"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-712_afd00ae7f259af2831587a8f5ead5d3e",
+          "parent_root_question": "country has territories in Oceania?",
+          "samples": [
+            {
+              "qid": "WebQTest-712_afd00ae7f259af2831587a8f5ead5d3e_0",
+              "sub_id": 0,
+              "raw_question": "country has territories in Oceania?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Cook Islands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "dominica",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1470_c914b0ca5bf68616cc936d2a9a5c8f26",
+          "parent_root_question": "What government is used for Poland?",
+          "samples": [
+            {
+              "qid": "WebQTest-1470_c914b0ca5bf68616cc936d2a9a5c8f26_1",
+              "sub_id": 1,
+              "raw_question": "Dominica?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Parliamentary republic"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1823_c914b0ca5bf68616cc936d2a9a5c8f26",
+          "parent_root_question": "What governmental system is used in both Iraq?",
+          "samples": [
+            {
+              "qid": "WebQTest-1823_c914b0ca5bf68616cc936d2a9a5c8f26_1",
+              "sub_id": 1,
+              "raw_question": "Dominica?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "History"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "during",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1260_8d86dc5e03446f0e50fd69bc06ae0658",
+          "parent_root_question": "During?",
+          "samples": [
+            {
+              "qid": "WebQTest-1260_8d86dc5e03446f0e50fd69bc06ae0658_0",
+              "sub_id": 0,
+              "raw_question": "During?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Michigan"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2653_57622031abc6042a5a02dcf3b4300552",
+          "parent_root_question": "During?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2653_57622031abc6042a5a02dcf3b4300552_0",
+              "sub_id": 0,
+              "raw_question": "During?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "French Guiana"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "film starred kim richards",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1785_0ba51bc328c6a55f18a27da8b71af88b",
+          "parent_root_question": "film starred Kim Richards?",
+          "samples": [
+            {
+              "qid": "WebQTest-1785_0ba51bc328c6a55f18a27da8b71af88b_0",
+              "sub_id": 0,
+              "raw_question": "film starred Kim Richards?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Liba Daniels"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1785_7f270088cf020ed82bc112370daec0e4",
+          "parent_root_question": "film starred Kim Richards?",
+          "samples": [
+            {
+              "qid": "WebQTest-1785_7f270088cf020ed82bc112370daec0e4_0",
+              "sub_id": 0,
+              "raw_question": "film starred Kim Richards?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Mineola"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "has largest country calling code",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-576_13008c4e3077772fc05f25bcfe70cad9",
+          "parent_root_question": "Of the seven countries that make up Central America?",
+          "samples": [
+            {
+              "qid": "WebQTest-576_13008c4e3077772fc05f25bcfe70cad9_1",
+              "sub_id": 1,
+              "raw_question": "has the largest country calling code?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Tribal Gathering"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2664_60ad713c912ba0a53a817af134597857",
+          "parent_root_question": "Of China's main trading partners?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2664_60ad713c912ba0a53a817af134597857_1",
+              "sub_id": 1,
+              "raw_question": "has the largest country calling code?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "China"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "have territories in oceania",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-712_37a5691b2bade75e2b9d518da5f13b94",
+          "parent_root_question": "What countries use The New Zealand dollar?",
+          "samples": [
+            {
+              "qid": "WebQTest-712_37a5691b2bade75e2b9d518da5f13b94_1",
+              "sub_id": 1,
+              "raw_question": "have territories in Oceania?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Wallis and Futuna"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-712_b1236660c5bd74b3c7b1722628aa4861",
+          "parent_root_question": "countries have a calling code greater than 682?",
+          "samples": [
+            {
+              "qid": "WebQTest-712_b1236660c5bd74b3c7b1722628aa4861_1",
+              "sub_id": 1,
+              "raw_question": "have territories in Oceania?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Oceania"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "he that rejoices in his portion",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1316_15cace8f716a3aed245757a5874e1bb0",
+          "parent_root_question": "What is the name of the wife of the person who said \"Who is rich?",
+          "samples": [
+            {
+              "qid": "WebQTest-1316_15cace8f716a3aed245757a5874e1bb0_1",
+              "sub_id": 1,
+              "raw_question": "He that rejoices in his portion?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Quotations addressed to this addressee"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-3038_15cace8f716a3aed245757a5874e1bb0",
+          "parent_root_question": "Where is the childhood home of the person who said \"Who is rich?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3038_15cace8f716a3aed245757a5874e1bb0_1",
+              "sub_id": 1,
+              "raw_question": "He that rejoices in his portion.\"?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "The Autobiography of Benjamin Franklin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "inspired monet",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2540_1af583970c492fc3682ae363bbfca3d3",
+          "parent_root_question": "Who was influenced by Eugene Delacroix?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2540_1af583970c492fc3682ae363bbfca3d3_1",
+              "sub_id": 1,
+              "raw_question": "inspired Monet?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Eugène Delacroix"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2540_fda7f029b9b048fe224ce42fa45a6808",
+          "parent_root_question": "Who said \"A taste for simplicity cannot endure for long.\"?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2540_fda7f029b9b048fe224ce42fa45a6808_1",
+              "sub_id": 1,
+              "raw_question": "inspired Monet?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "City/Town/Village"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "is located in caribbean",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-1812_3ebe80233bc22dfb7ac196fb88adb084",
+          "parent_root_question": "What nation has an official symbol of Coqui?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1812_3ebe80233bc22dfb7ac196fb88adb084_1",
+              "sub_id": 1,
+              "raw_question": "is located in the Caribbean?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Lucayan Archipelago"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-1812_6a0e75033345508e8eadd5a47b0ad6b5",
+          "parent_root_question": "What country has an army of 1000?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1812_6a0e75033345508e8eadd5a47b0ad6b5_1",
+              "sub_id": 1,
+              "raw_question": "is located in the Caribbean?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Lucayan Archipelago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "is near grand canyon",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2871_798222cf482557de4d80d50bf20394ba",
+          "parent_root_question": "What city was the pro athlete who began his career in 2002 born in?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2871_798222cf482557de4d80d50bf20394ba_1",
+              "sub_id": 1,
+              "raw_question": "is near the Grand Canyon?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Contiguous United States"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2871_aaf59b724697754889d5ae1641d13cda",
+          "parent_root_question": "What has 4413668 visitors per year?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2871_aaf59b724697754889d5ae1641d13cda_1",
+              "sub_id": 1,
+              "raw_question": "is near the Grand Canyon?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "3 Ring Circus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "kingdom of prussia",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1742_4449720a6e25f3093a8065ae980f0221",
+          "parent_root_question": "What type of government is shared by Japan?",
+          "samples": [
+            {
+              "qid": "WebQTest-1742_4449720a6e25f3093a8065ae980f0221_1",
+              "sub_id": 1,
+              "raw_question": "the Kingdom of Prussia?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Sonic Team"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-493_4449720a6e25f3093a8065ae980f0221",
+          "parent_root_question": "What government system is shared by Australia?",
+          "samples": [
+            {
+              "qid": "WebQTest-493_4449720a6e25f3093a8065ae980f0221_1",
+              "sub_id": 1,
+              "raw_question": "the Kingdom of Prussia?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Federation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "languages",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2319_80b6d707e097b0a6f9ecf73579f717a7",
+          "parent_root_question": "The country with the Office of the Prosecutor General of Ukraine speaks?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2319_80b6d707e097b0a6f9ecf73579f717a7_1",
+              "sub_id": 1,
+              "raw_question": "languages?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Romani language Albanian language Tatar Language Moldovan language Romanian Language Hungarian language Russian Language Ukrainian Language"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2748_65952c606f7a7204cc1bec237c146bfa",
+          "parent_root_question": "Mae Hong Son Province is located in the country that speaks?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2748_65952c606f7a7204cc1bec237c146bfa_1",
+              "sub_id": 1,
+              "raw_question": "languages?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Thai Language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "newspaper akhbar elyom is circulated",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-105_82c62adc2280ef589ec7baf90ab10b3a",
+          "parent_root_question": "is the best currency to take to the location 2013, in?",
+          "samples": [
+            {
+              "qid": "WebQTrn-105_82c62adc2280ef589ec7baf90ab10b3a_1",
+              "sub_id": 1,
+              "raw_question": "the newspaper, Akhbar el-Yom is circulated?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Egypt"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2189_82c62adc2280ef589ec7baf90ab10b3a",
+          "parent_root_question": "What is the modern language at the location, in?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2189_82c62adc2280ef589ec7baf90ab10b3a_1",
+              "sub_id": 1,
+              "raw_question": "the newspaper, Akhbar el-Yom, is circulated?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Red Sea Governorate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "of 7 countries in central america",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-576_495085ad9dd6274cce483df63474ca21",
+          "parent_root_question": "Of the 7 countries in Central America?",
+          "samples": [
+            {
+              "qid": "WebQTest-576_495085ad9dd6274cce483df63474ca21_0",
+              "sub_id": 0,
+              "raw_question": "Of the 7 countries in Central America?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Belize Guatemala Honduras El Salvador Panama Costa Rica Amerigo Vespucci"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-576_71ac98cf897bce1b05171187e0928780",
+          "parent_root_question": "Of the 7 countries in Central America?",
+          "samples": [
+            {
+              "qid": "WebQTest-576_71ac98cf897bce1b05171187e0928780_0",
+              "sub_id": 0,
+              "raw_question": "Of the 7 countries in Central America?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Belize Guatemala Honduras El Salvador Panama Costa Rica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "of films in",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1785_afeade6c28913208addc4d0685fadb3b",
+          "parent_root_question": "Of the films in?",
+          "samples": [
+            {
+              "qid": "WebQTest-1785_afeade6c28913208addc4d0685fadb3b_0",
+              "sub_id": 0,
+              "raw_question": "Of the films in?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Actor"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-1677_2a1c28332b99af705e4c180cdb1ea457",
+          "parent_root_question": "Of the films in?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1677_2a1c28332b99af705e4c180cdb1ea457_0",
+              "sub_id": 0,
+              "raw_question": "Of the films in?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Vocals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "of main trading partners of china",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2664_a82da5c3eea7c68f4ebeb7fe9ae20288",
+          "parent_root_question": "Of the main trading partners of China?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2664_a82da5c3eea7c68f4ebeb7fe9ae20288_0",
+              "sub_id": 0,
+              "raw_question": "Of the main trading partners of China?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Italy"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2664_c04548701c89d3af786e8b8cc112af82",
+          "parent_root_question": "Of  the main trading partners of China?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2664_c04548701c89d3af786e8b8cc112af82_0",
+              "sub_id": 0,
+              "raw_question": "Of  the main trading partners of China?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Philippines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "of seven countries that are part of central america",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-576_d158063dcdb1c7030e5f94515719dd15",
+          "parent_root_question": "Of the seven countries that are part of Central America?",
+          "samples": [
+            {
+              "qid": "WebQTest-576_d158063dcdb1c7030e5f94515719dd15_0",
+              "sub_id": 0,
+              "raw_question": "Of the seven countries that are part of Central America?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Belize Guatemala Honduras El Salvador Panama Costa Rica Haiti"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-576_e9a3bdf6f62a7b6057f7d339fb48c28f",
+          "parent_root_question": "Of the seven countries that are part of Central America?",
+          "samples": [
+            {
+              "qid": "WebQTest-576_e9a3bdf6f62a7b6057f7d339fb48c28f_0",
+              "sub_id": 0,
+              "raw_question": "Of the seven countries that are part of Central America?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Belize Guatemala Honduras El Salvador Panama Costa Rica Haiti"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "people speak portuguese",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-60_ab488396f4fb0104563e58b22214040c",
+          "parent_root_question": "country is the calling code 240?",
+          "samples": [
+            {
+              "qid": "WebQTrn-60_ab488396f4fb0104563e58b22214040c_1",
+              "sub_id": 1,
+              "raw_question": "the people speak Portuguese?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Portugal Po"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-60_ea64bd8530c79e21438a71faed039caf",
+          "parent_root_question": "In what country is the national anthem Die Stem van Suid-Afrika?",
+          "samples": [
+            {
+              "qid": "WebQTrn-60_ea64bd8530c79e21438a71faed039caf_1",
+              "sub_id": 1,
+              "raw_question": "people speak Portuguese?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Previous in series"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "played vito corleone",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-1294_166a8a452917734473adfcfaaef4e4e0",
+          "parent_root_question": "What is the real name of the celebrity that had a romance end after 1991?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1294_166a8a452917734473adfcfaaef4e4e0_1",
+              "sub_id": 1,
+              "raw_question": "played Vito Corleone?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Male"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-1294_2ebb5661241a71eb1a975f6e05d4cec3",
+          "parent_root_question": "What was an award nominee in the first Golden Raspberry Awards?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1294_2ebb5661241a71eb1a975f6e05d4cec3_1",
+              "sub_id": 1,
+              "raw_question": "played Vito Corleone?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Razzie Award for Worst Supporting Actor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "speaks germanic languages",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1251_060135e66e84cbaa29a73145435c5457",
+          "parent_root_question": "What country is the location in Jojo's bizarre adventure?",
+          "samples": [
+            {
+              "qid": "WebQTest-1251_060135e66e84cbaa29a73145435c5457_1",
+              "sub_id": 1,
+              "raw_question": "speaks Germanic languages?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Vatican City"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1251_a553eb5e07386462e43819468c549c5d",
+          "parent_root_question": "country includes the province of Waldenburg?",
+          "samples": [
+            {
+              "qid": "WebQTest-1251_a553eb5e07386462e43819468c549c5d_1",
+              "sub_id": 1,
+              "raw_question": "speaks Germanic languages?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Waldenburg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "speaks portuguese",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-60_41719c9d7aa9c4991cf630e984a5bcca",
+          "parent_root_question": "country includes second level division Palmas?",
+          "samples": [
+            {
+              "qid": "WebQTrn-60_41719c9d7aa9c4991cf630e984a5bcca_1",
+              "sub_id": 1,
+              "raw_question": "speaks Portuguese?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Equatorial Guinea Guinea-Bissau"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-60_47c68c12c2afd9ae65f31a10982c43db",
+          "parent_root_question": "What country is home to Nova Roma?",
+          "samples": [
+            {
+              "qid": "WebQTrn-60_47c68c12c2afd9ae65f31a10982c43db_1",
+              "sub_id": 1,
+              "raw_question": "speaks Portuguese?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Equatorial Guinea Guinea-Bissau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "was child of king solomon",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1667_00790b1fc8cab3b0beea1a08d4c633d9",
+          "parent_root_question": "What historical figure died on 912 BC?",
+          "samples": [
+            {
+              "qid": "WebQTest-1667_00790b1fc8cab3b0beea1a08d4c633d9_1",
+              "sub_id": 1,
+              "raw_question": "was a child of King Solomon?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Psalm 44"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1667_a9f9a41653404ac7cdca2796b5df19cb",
+          "parent_root_question": "Who died in Jerusalem?",
+          "samples": [
+            {
+              "qid": "WebQTest-1667_a9f9a41653404ac7cdca2796b5df19cb_1",
+              "sub_id": 1,
+              "raw_question": "was the child of King Solomon?",
+              "dep_type": "bridge",
+              "needs_prev_answer": true,
+              "prediction_preview": "Aristobulus II"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what actor played dumbledore in harry potter",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1002_79193cd4e3109a1807db048aaadc03b6",
+          "parent_root_question": "What actor played DUmbledore in Harry Potter?",
+          "samples": [
+            {
+              "qid": "WebQTest-1002_79193cd4e3109a1807db048aaadc03b6_0",
+              "sub_id": 0,
+              "raw_question": "What actor played DUmbledore in Harry Potter?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Richard Harris"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1002_7e0a9b05b43e888a672c7f1d2a9e094d",
+          "parent_root_question": "What actor played dumbledore in Harry potter?",
+          "samples": [
+            {
+              "qid": "WebQTest-1002_7e0a9b05b43e888a672c7f1d2a9e094d_0",
+              "sub_id": 0,
+              "raw_question": "What actor played dumbledore in Harry potter?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "United Kingdom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what country borders france",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-241_67cbe4ab018070cee50c6a88a6f7c7c1",
+          "parent_root_question": "What country borders France?",
+          "samples": [
+            {
+              "qid": "WebQTrn-241_67cbe4ab018070cee50c6a88a6f7c7c1_0",
+              "sub_id": 0,
+              "raw_question": "What country borders France?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Belgium Germany Italy Luxembourg Monaco Spain Switzerland United Kingdom Andorra"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-241_fa7fb367370bdcda12f06680e8b21b92",
+          "parent_root_question": "What country borders France?",
+          "samples": [
+            {
+              "qid": "WebQTrn-241_fa7fb367370bdcda12f06680e8b21b92_0",
+              "sub_id": 0,
+              "raw_question": "What country borders France?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Belgium Germany Italy Luxembourg Monaco Spain Switzerland United Kingdom Andorra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what is currency in country",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-654_f4440609f5cecb091bf8e86adb47be25",
+          "parent_root_question": "What is the currency in the country?",
+          "samples": [
+            {
+              "qid": "WebQTest-654_f4440609f5cecb091bf8e86adb47be25_0",
+              "sub_id": 0,
+              "raw_question": "What is the currency in the country?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Arabic Language"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2026_0d5bc4f5ce16dafee354662c09965811",
+          "parent_root_question": "What is the currency in the country?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2026_0d5bc4f5ce16dafee354662c09965811_0",
+              "sub_id": 0,
+              "raw_question": "What is the currency in the country?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Composition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what is major language spoken in greece",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-3151_12f714783be901012e7fa202551f74e2",
+          "parent_root_question": "What is the major language spoken in Greece?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3151_12f714783be901012e7fa202551f74e2",
+              "sub_id": 0,
+              "raw_question": "What is the major language spoken in Greece?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Angel"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-3151_f3cb429e64bc1706be81bc4f687a0019",
+          "parent_root_question": "What is the major language spoken in Greece?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3151_f3cb429e64bc1706be81bc4f687a0019_0",
+              "sub_id": 0,
+              "raw_question": "What is the major language spoken in Greece?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Drama"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what language is spoken in country",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2875_932cb81ff1a6e44e83ffd8b835951383",
+          "parent_root_question": "What language is spoken in the country?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2875_932cb81ff1a6e44e83ffd8b835951383_0",
+              "sub_id": 0,
+              "raw_question": "What language is spoken in the country?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Italian Language Guanche Language Northern Berber languages Proto-Berber language French Western Berber languages Numidian language Arabic Language"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2875_c1bdcdad310f5bccb773c5aae3e46f20",
+          "parent_root_question": "What language is spoken in the country?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2875_c1bdcdad310f5bccb773c5aae3e46f20_0",
+              "sub_id": 0,
+              "raw_question": "What language is spoken in the country?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Romani language English Language Cypriot Maronite Arabic Turkish Language Greek Language German Language French Armenian Language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what movie",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1785_e0f5bd8c1ccde7ddfa3be8bdf3122ebc",
+          "parent_root_question": "What movie?",
+          "samples": [
+            {
+              "qid": "WebQTest-1785_e0f5bd8c1ccde7ddfa3be8bdf3122ebc_0",
+              "sub_id": 0,
+              "raw_question": "What movie?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "m.piv_a04875"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-1677_a732537089fb8605a3ca78fbe5627eff",
+          "parent_root_question": "What movie?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1677_a732537089fb8605a3ca78fbe5627eff_0",
+              "sub_id": 0,
+              "raw_question": "What movie?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Pixels Screenwriter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what movie featured taylor lautner",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-25_2a2de50d3b65cc5d2c88f54e283a4b8a",
+          "parent_root_question": "What movie featured Taylor Lautner?",
+          "samples": [
+            {
+              "qid": "WebQTrn-25_2a2de50d3b65cc5d2c88f54e283a4b8a_0",
+              "sub_id": 0,
+              "raw_question": "What movie featured Taylor Lautner?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Raw video"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-25_ff53089f475b9fdfec05e61e26a3fc3c",
+          "parent_root_question": "What movie featured Taylor Lautner?",
+          "samples": [
+            {
+              "qid": "WebQTrn-25_ff53089f475b9fdfec05e61e26a3fc3c_0",
+              "sub_id": 0,
+              "raw_question": "What movie featured Taylor Lautner?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "2010 Teen Choice Awards"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what movie was directed by angelina jolie",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-124_21e7ebb1c9ec40f8d0d21e11b37a08bc",
+          "parent_root_question": "What movie was directed by Angelina Jolie?",
+          "samples": [
+            {
+              "qid": "WebQTrn-124_21e7ebb1c9ec40f8d0d21e11b37a08bc_0",
+              "sub_id": 0,
+              "raw_question": "What movie was directed by Angelina Jolie?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Award Winner"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-124_5e89e91ab1c8fd1eea3f415d52cb4738",
+          "parent_root_question": "What movie was directed by Angelina Jolie?",
+          "samples": [
+            {
+              "qid": "WebQTrn-124_5e89e91ab1c8fd1eea3f415d52cb4738_0",
+              "sub_id": 0,
+              "raw_question": "What movie was directed by Angelina Jolie?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "By the Sea Magna"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what nation to",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-3543_b5eabb006685da5755fdf968500b7cd4",
+          "parent_root_question": "What nation to?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3543_b5eabb006685da5755fdf968500b7cd4_0",
+              "sub_id": 0,
+              "raw_question": "What nation to?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Sonic Colors"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-3543_c48e6de5044e564c757dd8332cdd7570",
+          "parent_root_question": "What nation to?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3543_c48e6de5044e564c757dd8332cdd7570_0",
+              "sub_id": 0,
+              "raw_question": "What nation to?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Eurasia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what tv show features tamera mowry",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-3249_6dbfa476f0510018f470c29993293e68",
+          "parent_root_question": "What tv show features Tamera Mowry?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3249_6dbfa476f0510018f470c29993293e68_0",
+              "sub_id": 0,
+              "raw_question": "What tv show features Tamera Mowry?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Necrobiosis lipoidica"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-3249_ba23107deaeaf5733abcc2cabc5221b6",
+          "parent_root_question": "What tv show features Tamera Mowry?",
+          "samples": [
+            {
+              "qid": "WebQTrn-3249_ba23107deaeaf5733abcc2cabc5221b6_0",
+              "sub_id": 0,
+              "raw_question": "What tv show features Tamera Mowry?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Necrobiosis lipoidica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "what was last world series won by team",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-832_c1d5c9c777c291a80c29c70ec43c45ad",
+          "parent_root_question": "What was the last World Series won by the team?",
+          "samples": [
+            {
+              "qid": "WebQTest-832_c1d5c9c777c291a80c29c70ec43c45ad_0",
+              "sub_id": 0,
+              "raw_question": "What was the last World Series won by the team?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Seals Stadium"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-710_c334509bb5e02cacae1ba2e80c176499",
+          "parent_root_question": "What was the last World Series won by the team?",
+          "samples": [
+            {
+              "qid": "WebQTrn-710_c334509bb5e02cacae1ba2e80c176499_0",
+              "sub_id": 0,
+              "raw_question": "What was the last World Series won by the team?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Team Mascot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "when did sports team",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1260_d95da5fb8a16d81fe56cd4ce00843254",
+          "parent_root_question": "When did the sports team?",
+          "samples": [
+            {
+              "qid": "WebQTest-1260_d95da5fb8a16d81fe56cd4ce00843254_0",
+              "sub_id": 0,
+              "raw_question": "When did the sports team?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "2008-2009 NFL Players in FootballDB"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-837_a65373d6ffaa966c347087864c895897",
+          "parent_root_question": "When did the sports team?",
+          "samples": [
+            {
+              "qid": "WebQTest-837_a65373d6ffaa966c347087864c895897_0",
+              "sub_id": 0,
+              "raw_question": "When did the sports team?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "12 Monkeys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "where did lauren conrad live",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2904_56cf05bd5b41e04f4358490ed3e81619",
+          "parent_root_question": "Where did Lauren Conrad live?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2904_56cf05bd5b41e04f4358490ed3e81619_0",
+              "sub_id": 0,
+              "raw_question": "Where did Lauren Conrad live?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Lyle Parker"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2904_5a1ab4d83a1d2fe285f8484c244f6f0a",
+          "parent_root_question": "Where did Lauren Conrad live?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2904_5a1ab4d83a1d2fe285f8484c244f6f0a_0",
+              "sub_id": 0,
+              "raw_question": "Where did Lauren Conrad live?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Chelsea Makela"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "where does lala anthony live",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-452_53e9ff82331f9989379d894e684f1546",
+          "parent_root_question": "Where does Lala Anthony live?",
+          "samples": [
+            {
+              "qid": "WebQTrn-452_53e9ff82331f9989379d894e684f1546_0",
+              "sub_id": 0,
+              "raw_question": "Where does Lala Anthony live?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Prostate cancer"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-452_7353c8c6c04ea2c5ff801a96123277cc",
+          "parent_root_question": "Where does LaLa Anthony live?",
+          "samples": [
+            {
+              "qid": "WebQTrn-452_7353c8c6c04ea2c5ff801a96123277cc_0",
+              "sub_id": 0,
+              "raw_question": "Where does LaLa Anthony live?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Cardiovascular disease"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "where is whistler mountain located",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-261_9959e6fa280ab11551e5f9974e25bfe4",
+          "parent_root_question": "Where is Whistler Mountain located?",
+          "samples": [
+            {
+              "qid": "WebQTrn-261_9959e6fa280ab11551e5f9974e25bfe4_0",
+              "sub_id": 0,
+              "raw_question": "Where is Whistler Mountain located?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Canadian Province"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-261_abcfaa447002c91fcf64caa87f7cec1f",
+          "parent_root_question": "Where is Whistler Mountain located?",
+          "samples": [
+            {
+              "qid": "WebQTrn-261_abcfaa447002c91fcf64caa87f7cec1f_0",
+              "sub_id": 0,
+              "raw_question": "Where is Whistler Mountain located?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Pend Oreille River"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "who dated tupac shakur",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-1278_51fc729996448b82cb36b98e70cf1498",
+          "parent_root_question": "Who dated Tupac Shakur?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1278_51fc729996448b82cb36b98e70cf1498_0",
+              "sub_id": 0,
+              "raw_question": "Who dated Tupac Shakur?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Pop Rock 80's"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-1278_d127c340850ac5ecd6e6f7892ca8f509",
+          "parent_root_question": "Who dated Tupac Shakur?",
+          "samples": [
+            {
+              "qid": "WebQTrn-1278_d127c340850ac5ecd6e6f7892ca8f509_0",
+              "sub_id": 0,
+              "raw_question": "Who dated Tupac Shakur?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Pop Rock 80's - 24kbps Stream"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "who inspired monet",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTrn-2540_5e56c7691b80c044d23d2f29efc3d94f",
+          "parent_root_question": "Who inspired Monet?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2540_5e56c7691b80c044d23d2f29efc3d94f_0",
+              "sub_id": 0,
+              "raw_question": "Who inspired Monet?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Eugène Delacroix Claude Monet Jean-François Millet Jozef Israëls Anton Mauve Paul Cézanne Fernand Cormon Rembrandt Willem Roelofs Peter Paul Rubens"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTrn-2540_e3695add07fcd52dea0a0978092c4ce1",
+          "parent_root_question": "Who inspired Monet?",
+          "samples": [
+            {
+              "qid": "WebQTrn-2540_e3695add07fcd52dea0a0978092c4ce1_0",
+              "sub_id": 0,
+              "raw_question": "Who inspired Monet?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Eugène Boudin Rouen Cathedral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "normalized_question": "who was governor of arizona in 2009",
+      "parents": 2,
+      "parents_detail": [
+        {
+          "parent_id": "WebQTest-1686_47700e3f6b91f131e4cbdf7e5d8cb64d",
+          "parent_root_question": "Who was governor of Arizona in 2009?",
+          "samples": [
+            {
+              "qid": "WebQTest-1686_47700e3f6b91f131e4cbdf7e5d8cb64d_0",
+              "sub_id": 0,
+              "raw_question": "Who was governor of Arizona in 2009?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "Bill Clinton, Dr. Jo Gayle"
+            }
+          ]
+        },
+        {
+          "parent_id": "WebQTest-1686_87cdd7d2679849d6e7f286145aa6c15f",
+          "parent_root_question": "Who was the governor of Arizona in 2009?",
+          "samples": [
+            {
+              "qid": "WebQTest-1686_87cdd7d2679849d6e7f286145aa6c15f_0",
+              "sub_id": 0,
+              "raw_question": "Who was the governor of Arizona in 2009?",
+              "dep_type": "none",
+              "needs_prev_answer": false,
+              "prediction_preview": "First Battle of Dragoon Springs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
