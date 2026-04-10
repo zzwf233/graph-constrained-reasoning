@@ -1,11 +1,15 @@
-import transformers
-from typing import Dict, List
+from __future__ import annotations
+
+from typing import Dict, List, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    import transformers
 
 def smart_tokenizer_and_embedding_resize(
     new_tokens: List[str],
     special_tokens_dict: Dict,
-    tokenizer: transformers.PreTrainedTokenizer,
-    model: transformers.PreTrainedModel,
+    tokenizer: "transformers.PreTrainedTokenizer",
+    model: "transformers.PreTrainedModel",
 ):
     """Resize tokenizer and embedding.
 
