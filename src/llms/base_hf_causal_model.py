@@ -1,4 +1,4 @@
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+# from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 import torch
 from .base_language_model import BaseLanguageModel
 import os
