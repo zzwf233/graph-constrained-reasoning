@@ -2,8 +2,8 @@ DATA_PATH=rmanluo
 DATA_LIST="RoG-webqsp RoG-cwq"
 SPLIT="test"
 INDEX_LEN=2
-ATTN_IMP=flash_attention_2
-
+#ATTN_IMP=flash_attention_2
+ATTN_IMP=sdpa
 MODEL_PATH=rmanluo/GCR-Meta-Llama-3.1-8B-Instruct
 MODEL_NAME=$(basename "$MODEL_PATH")
 
