@@ -1,7 +1,8 @@
 import os
 import argparse
 import tqdm
-from datasets import load_dataset, Dataset
+from datasets import Dataset
+from src.utils.data_loader import load_qa_dataset
 from multiprocessing import Pool
 from functools import partial
 from src.utils.graph_utils import build_graph, dfs
@@ -19,7 +20,7 @@ def index_graph(args):
     data_path = f"{args.d}_undirected" if args.undirected else args.d
     output_dir = os.path.join(args.output_path, data_path, args.split, f"length-{args.K}")
     # Load dataset
-    dataset = load_dataset(input_file, split=args.split)
+    dataset = load_qa_dataset(args.data_path, args.d, args.split)
     
     # dataset = dataset.map(process, num_proc=args.n, fn_kwargs={'K': args.K})
     # dataset.select_columns(['id', 'paths']).save_to_disk(output_dir)
