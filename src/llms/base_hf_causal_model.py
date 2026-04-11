@@ -4,7 +4,7 @@ from .base_language_model import BaseLanguageModel
 import os
 import importlib.util
 import dotenv
-from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig, BitsAndBytesConfig
 from peft import PeftConfig
 
 dotenv.load_dotenv()
@@ -60,11 +60,13 @@ class HfCausalModel(BaseLanguageModel):
         model_kwargs = {
             "token": HF_TOKEN,
             "dtype": self.DTYPE.get(self.args.dtype, None),
-            "load_in_8bit": self.args.quant == "8bit",
-            "load_in_4bit": self.args.quant == "4bit",
             "trust_remote_code": True,
             "attn_implementation": self.args.attn_implementation,
         }
+        if self.args.quant == "8bit":
+            model_kwargs["quantization_config"] = BitsAndBytesConfig(load_in_8bit=True)
+        elif self.args.quant == "4bit":
+            model_kwargs["quantization_config"] = BitsAndBytesConfig(load_in_4bit=True)
         if has_accelerate:
             model_kwargs["device_map"] = "auto"
         else:
@@ -92,6 +94,7 @@ class HfCausalModel(BaseLanguageModel):
             sft_peft_config = PeftConfig.from_pretrained(self.args.model_path)
             self.generation_cfg = GenerationConfig.from_pretrained(sft_peft_config.base_model_name_or_path)
             
+        self.generation_cfg.trust_remote_code=True
         self.generation_cfg.max_new_tokens = self.args.max_new_tokens
         self.generation_cfg.return_dict_in_generate = (True,)
 
@@ -153,7 +156,8 @@ class HfCausalModel(BaseLanguageModel):
                 attention_mask = attention_mask,
                 generation_config=self.generation_cfg,
                 return_dict_in_generate=True,
-                pad_token_id=self.tokenizer.eos_token_id
+                pad_token_id=self.tokenizer.eos_token_id,
+                trust_remote_code=True,
             )
         except Exception as e:
             print(e)
