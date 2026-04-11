@@ -4,6 +4,7 @@ from .base_language_model import BaseLanguageModel
 registed_language_models = {
     'gpt': 'chatgpt',
     'qwen2.5-vl-72b-instruct': 'chatgpt',
+    'deepseek-v3.2': 'chatgpt',
     'gcr': 'gcr',
     'others': 'hf',
 }
