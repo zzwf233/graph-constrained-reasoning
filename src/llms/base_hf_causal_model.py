@@ -2,6 +2,7 @@
 import torch
 from .base_language_model import BaseLanguageModel
 import os
+import importlib.util
 import dotenv
 from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
 from peft import PeftConfig
@@ -52,29 +53,33 @@ class HfCausalModel(BaseLanguageModel):
         return len(self.tokenizer.tokenize(text))
 
     def prepare_for_inference(self):
+        has_accelerate = importlib.util.find_spec("accelerate") is not None
         self.tokenizer = AutoTokenizer.from_pretrained(
             self.args.model_path, token=HF_TOKEN, trust_remote_code=True
         )
+        model_kwargs = {
+            "token": HF_TOKEN,
+            "dtype": self.DTYPE.get(self.args.dtype, None),
+            "load_in_8bit": self.args.quant == "8bit",
+            "load_in_4bit": self.args.quant == "4bit",
+            "trust_remote_code": True,
+            "attn_implementation": self.args.attn_implementation,
+        }
+        if has_accelerate:
+            model_kwargs["device_map"] = "auto"
+        else:
+            print(
+                "Warning: `accelerate` is not installed, falling back to single-device loading. "
+                "Install it with `pip install accelerate` for `device_map='auto'` support."
+            )
         self.model = AutoModelForCausalLM.from_pretrained(
             self.args.model_path,
-            device_map="auto",
-            token=HF_TOKEN,
-            torch_dtype=self.DTYPE.get(self.args.dtype, None),
-            load_in_8bit=self.args.quant == "8bit",
-            load_in_4bit=self.args.quant == "4bit",
-            trust_remote_code=True,
-            attn_implementation=self.args.attn_implementation,
+            **model_kwargs,
         )
         if self.args.use_assistant_model:
             self.assistant_model = AutoModelForCausalLM.from_pretrained(
                 self.args.assistant_model_path,
-                device_map="auto",
-                token=HF_TOKEN,
-                torch_dtype=self.DTYPE.get(self.args.dtype, None),
-                load_in_8bit=self.args.quant == "8bit",
-                load_in_4bit=self.args.quant == "4bit",
-                trust_remote_code=True,
-                attn_implementation=self.args.attn_implementation,
+                **model_kwargs,
             )
         else:
             self.assistant_model = None
