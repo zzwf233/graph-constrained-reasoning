@@ -5,7 +5,7 @@ import argparse
 from tqdm import tqdm
 from src.llms import get_registed_model
 import os
-from datasets import load_dataset
+from src.utils.data_loader import load_qa_dataset
 from src.utils.qa_utils import eval_result
 import json
 from multiprocessing.dummy import Pool
@@ -162,9 +162,7 @@ def get_all_paths(qa_dataset, length = 2, n_proc=1, filter_empty=False):
     
 
 def main(args, LLM):
-    input_file = os.path.join(args.data_path, args.d)
-    # Load dataset
-    dataset = load_dataset(input_file, split=args.split)
+    dataset = load_qa_dataset(args.data_path, args.d, args.split)
     if args.add_path:
         if args.use_all:
             max_length = 2
