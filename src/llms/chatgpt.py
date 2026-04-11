@@ -13,6 +13,7 @@ DEFAULT_MODEL_NAME = "Qwen/Qwen2.5-VL-72B-Instruct"
 DEFAULT_API_BASE = "https://api.siliconflow.cn/v1"
 MODEL_TO_ENCODING = {
     DEFAULT_MODEL_NAME.lower(): "cl100k_base",
+    "deepseek-ai/deepseek-v3.2": "cl100k_base",
 }
 
 def get_token_limit(model='gpt-4'):
@@ -26,6 +27,8 @@ def get_token_limit(model='gpt-4'):
     elif model in ['gpt-3.5-turbo', 'gpt-3.5-turbo-0613', 'text-davinci-003', 'text-davinci-002']:
         num_tokens_limit = 4096
     elif model.lower() in [DEFAULT_MODEL_NAME.lower(), "qwen/qwen2.5-vl-72b-instruct"]:
+        num_tokens_limit = 128000
+    elif model.lower() in ["deepseek-ai/deepseek-v3.2"]:
         num_tokens_limit = 128000
     else:
         # default for OpenAI-compatible long-context chat models
