@@ -90,7 +90,6 @@ class ChatGPT(BaseLanguageModel):
         return query
     
     def generate_sentence(self, llm_input):
-        query = [{"role": "user", "content": llm_input}]
         cur_retry = 0
         num_retry = self.retry
         # Chekc if the input is too long
@@ -98,6 +97,7 @@ class ChatGPT(BaseLanguageModel):
         if input_length > self.maximun_token:
             print(f"Input lengt {input_length} is too long. The maximum token is {self.maximun_token}.\n Right tuncate the input to {self.maximun_token} tokens.")
             llm_input = llm_input[:self.maximun_token]
+        query = [{"role": "user", "content": llm_input}]
         while cur_retry <= num_retry:
             try:
                 response = self.client.chat.completions.create(
