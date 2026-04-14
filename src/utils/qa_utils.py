@@ -38,6 +38,18 @@ def eval_hit(prediction, answer):
     return 0
 
 
+def eval_hits_at_1(prediction, answer):
+    if len(prediction) == 0:
+        return 0
+    return eval_hit(prediction[0], answer)
+
+
+def eval_exact_match(prediction, answer):
+    normalized_prediction = {normalize(p) for p in prediction if normalize(p)}
+    normalized_answer = {normalize(a) for a in answer if normalize(a)}
+    return int(normalized_prediction == normalized_answer)
+
+
 def eval_f1(prediction, answer):
     if len(prediction) == 0 or len(answer) == 0:
         return 0, 0, 0
@@ -175,6 +187,8 @@ def eval_result(predict_file, cal_f1=True, topk=-1):
     f1_list = []
     precission_list = []
     recall_list = []
+    hits_at_1_list = []
+    exact_match_list = []
     with open(predict_file, "r") as f, open(detailed_eval_file, "w") as f2:
         for line in f:
             try:
@@ -194,8 +208,12 @@ def eval_result(predict_file, cal_f1=True, topk=-1):
                 prediction_str = " ".join(prediction)
                 acc = eval_acc(prediction_str, answer)
                 hit = eval_hit(prediction_str, answer)
+                hits_at_1 = eval_hits_at_1(prediction, answer)
+                exact_match = eval_exact_match(prediction, answer)
                 acc_list.append(acc)
                 hit_list.append(hit)
+                hits_at_1_list.append(hits_at_1)
+                exact_match_list.append(exact_match)
                 f2.write(
                     json.dumps(
                         {
@@ -204,6 +222,8 @@ def eval_result(predict_file, cal_f1=True, topk=-1):
                             "ground_truth": answer,
                             "acc": acc,
                             "hit": hit,
+                            "hits@1": hits_at_1,
+                            "exact_match": exact_match,
                             "f1": f1_score,
                             "precission": precision_score,
                             "recall": recall_score,
@@ -231,9 +251,7 @@ def eval_result(predict_file, cal_f1=True, topk=-1):
 
     if len(f1_list) > 0:
         result_str = (
-            "Accuracy: "
-            + str(sum(acc_list) * 100 / len(acc_list))
-            + " Hit: "
+            "Hit: "
             + str(sum(hit_list) * 100 / len(hit_list))
             + " F1: "
             + str(sum(f1_list) * 100 / len(f1_list))
@@ -241,6 +259,12 @@ def eval_result(predict_file, cal_f1=True, topk=-1):
             + str(sum(precission_list) * 100 / len(precission_list))
             + " Recall: "
             + str(sum(recall_list) * 100 / len(recall_list))
+            + " Hits@1: "
+            + str(sum(hits_at_1_list) * 100 / len(hits_at_1_list))
+            + " EM: "
+            + str(sum(exact_match_list) * 100 / len(exact_match_list))
+            + " Accuracy: "
+            + str(sum(acc_list) * 100 / len(acc_list))
         )
     else:
         result_str = (
