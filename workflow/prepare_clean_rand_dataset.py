@@ -1,6 +1,7 @@
 import os
 import random
 import argparse
+import hashlib
 from copy import deepcopy
 from datasets import Dataset, DatasetDict, load_dataset, load_from_disk
 
@@ -24,7 +25,10 @@ def collect_global_schema(dataset):
     return sorted(entities), sorted(relations)
 
 def rand_poison_graph(sample, global_entities, global_relations, n_insert=20, seed=42):
-    rnd = random.Random(seed + hash(str(sample["id"])) % 10_000_000)
+    stable_id_hash = int(
+        hashlib.md5(str(sample["id"]).encode("utf-8")).hexdigest(), 16
+    )
+    rnd = random.Random(seed + stable_id_hash % 10_000_000)
 
     graph = [tuple(x) for x in sample["graph"]]
     existing = set(graph)
@@ -112,4 +116,4 @@ def main():
     print(f"Saved rand dataset to: {rand_path}")
 
 if __name__ == "__main__":
-    main()s
+    main()
