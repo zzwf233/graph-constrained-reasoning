@@ -233,6 +233,7 @@ def main(args, LLM):
         tokenize=model.token_len,
         use_rog_prompt=args.use_rog_prompt,
         each_line=args.each_line,
+        use_gcr=args.use_gcr,
     )
 
     print("Prepare pipline for inference...")
