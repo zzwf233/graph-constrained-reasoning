@@ -1,4 +1,3 @@
-from .chatgpt import ChatGPT
 from .base_language_model import BaseLanguageModel
 
 registed_language_models = {
@@ -12,6 +11,7 @@ registed_language_models = {
 
 def _load_model_class(model_type: str):
     if model_type == "chatgpt":
+        from .chatgpt import ChatGPT
         return ChatGPT
     if model_type == "gcr":
         from .graph_constrained_decoding_model import GraphConstrainedDecodingModel

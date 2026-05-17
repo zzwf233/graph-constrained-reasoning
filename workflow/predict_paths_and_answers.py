@@ -98,7 +98,8 @@ def main(args, LLM):
         rule_dataset = utils.load_jsonl(args.rule_path)
         dataset = merge_rule_result(dataset, rule_dataset, args.n, args.filter_empty)
         post_fix += "_" + rule_postfix
-    data_name = args.d + "_undirected" if args.undirected else args.d
+    output_dataset_name = args.output_d or args.d
+    data_name = output_dataset_name + "_undirected" if args.undirected else output_dataset_name
     output_dir = os.path.join(args.predict_path, data_name, args.model_name, args.split, post_fix)
     print("Save results to: ", output_dir)
 
@@ -155,6 +156,7 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
     argparser.add_argument('--data_path', type=str, default='rmanluo')
     argparser.add_argument('--d', '-d', type=str, default='RoG-webqsp')
+    argparser.add_argument('--output_d', type=str, default='', help='dataset name used only for output directory')
     argparser.add_argument('--split', type=str, default='test[:100]')
     argparser.add_argument('--index_path_length', type=int, default=2)
     argparser.add_argument('--predict_path', type=str, default='results/GenPaths')

@@ -164,9 +164,8 @@ class JointReasoningPromptBuilder(GraphConstrainedPromptBuilder):
 # Reasoning paths:
 """
     def get_graph_index(self, question_dict):
-        if "paths" in question_dict:
-            paths_list = question_dict["paths"]
-        else:
+        paths_list = question_dict.get("paths")
+        if not paths_list:
             g = utils.build_graph(question_dict["graph"], self.undirected)
             paths_list = utils.dfs(g, question_dict["q_entity"], self.index_path_length)
 

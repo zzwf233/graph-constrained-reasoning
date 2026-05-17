@@ -25,6 +25,13 @@ def dfs(graph, start_node_list, max_length):
     Returns:
         List[List[tuple]]: Find paths
     """
+    def add_path(path):
+        key = tuple(path)
+        if key in seen_paths:
+            return
+        seen_paths.add(key)
+        path_lists.append(path)
+
     def dfs_visit(node, path):
         if len(path) > max_length:
             return
@@ -33,17 +40,18 @@ def dfs(graph, start_node_list, max_length):
                 rel = graph[node][neighbor]["relation"]
                 new_path = path + [(node, rel, neighbor)]
                 if len(new_path) <= max_length:
-                    path_lists.add(tuple(new_path))
+                    add_path(new_path)
                 dfs_visit(neighbor, new_path)
         except Exception as e:
             print(e)
             pass
 
-    path_lists = set()
+    path_lists = []
+    seen_paths = set()
     for start_node in start_node_list:
         dfs_visit(start_node, [])
 
-    return list(path_lists)
+    return path_lists
 
 
 # 定义一个函数来进行宽度优先搜索

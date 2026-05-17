@@ -2,7 +2,6 @@ from collections import OrderedDict
 import json
 import re
 import string
-from sklearn.metrics import precision_score
 from statistics import mean
 
 def normalize(s: str) -> str:

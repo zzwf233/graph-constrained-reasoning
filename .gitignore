@@ -13,6 +13,23 @@ results/
 tmp/
 
 data/
+datasets/
+dataset/
+model/
+models/
+RoG-model/
+R6G-model/
+backups/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.safetensors.*
+*.filepart
+*.arrow
+*.parquet
+*.jsonl
 
 .ipynb_checkpoints/
 .DS_Store

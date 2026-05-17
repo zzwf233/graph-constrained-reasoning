@@ -9,6 +9,14 @@ def load_qa_dataset(data_path: str, dataset_name: str, split: str):
     """
     input_file = os.path.join(data_path, dataset_name)
 
+    if os.path.isfile(input_file):
+        ext = os.path.splitext(input_file)[1].lower()
+        split_name = str(split or "train").split("[", 1)[0] or "train"
+        if ext in [".json", ".jsonl"]:
+            return load_dataset("json", data_files={split_name: input_file}, split=split)
+        if ext == ".parquet":
+            return load_dataset("parquet", data_files={split_name: input_file}, split=split)
+
     # 优先判断是否为本地 save_to_disk 的目录
     if os.path.isdir(input_file):
         try:
